@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "Kit Daewoo Amoladora Angular 750w + Taladro Percutor 550w",
+    "valorUnidad": 115000,
+    "stock": 2,
+    "categ": "O",
+    "img": "./medias/img_Art_Mas_Vendidos_03.JPG",
+    "descrip": " Lo que tenés que saber de este producto Apta para un disco de 115 mm de diámetro. Alcanza una profundidad de corte de 115 mm.Trae interruptor tecla. Su potencia es de 750 W.",
+    "activo": true
+  },
+
+  {
+    "id": 2,
+    "nombre": "Auriculares Inalambricos",
+    "valorUnidad": 90000,
+    "stock": 2,
+    "categ": "E",
+    "img": "./medias/img_Art_Mas_Vendidos_01.JPG",
+    "descrip": "Auricular. Bluetooth. El formato perfecto para vos: al serin-ear, aislan el ruido del exterior, mejoran la calidad del audio y son de tamano pequeno para poder insertarse en tu oreja.Son ideales para acompanarte a la hora de hacer ejercicio mientras te sumergis en el mejor sonido envolvente. Base descarga: 800 mAh.",
+    "activo": true
+  },
+
+  {
+    "id": 3,
+    "nombre": "Libro De Comerciante A Empresario",
+    "valorUnidad": 11000,
+    "stock": 2,
+    "categ": "L",
+    "img": "./medias/IMG_Articulo5.jpg",
+    "descrip": "En este libro el autor te enseña el camino y te da muchos consejos necesarios para producir el cambio que siempre soñaste. Esta novedosa metodología te enseñará a evolucionar cada paso y a conocer el proceso paso a paso, así podrás moverte de forma ascendente en el mundo de los negocios.",
+    "activo": true
+  },
+
+  {
+    "id": 4,
+    "nombre": "Zanella Hot 90 Shot Tucumán",
+    "valorUnidad": 10000001,
+    "stock": 2,
+    "categ": "O",
+    "img": "./medias/IMG_Articulo6.jpg",
+    "descrip": "MOTOZUNI S.A. NO COBRA FORMULARIOS.Jueves 8 y Viernes 9 de Septiembre DESCUENTO sobre el precio publicado. Consultar promoción.Créditos SOLO con DNI. Sin demoras, entrega en el acto. Primera cuota del crédito DNI en el mes de OCTUBRE. TE LLEVAMOS LA MOTO EN EL DÍA",
+    "activo": true
+  },
+
+  {
+    "id": 5,
+    "nombre": "Smart Tv Tcl L40s66e 40 Full Hd Android Tv",
+    "valorUnidad": 80000,
+    "stock": 4,
+    "categ": "E",
+    "img": "./medias/IMG_Articulo7.jpg",
+    "descrip": "Este modelo en concreto, el de 58 pulgadas, solemos verlo por un precio de casi 1.000 euros, por lo que ahora, con la oferta de El Corte Inglés, podemos llevárnoslo con un precio reducido del 37%, lo que sería un descuento de 360 euros que lo deja a tan solo 599 euros. Un precio muy interesante si estamos buscando un televisor potente, con buena angular de pantalla y un buen precio.",
+    "activo": true
+  }
+]

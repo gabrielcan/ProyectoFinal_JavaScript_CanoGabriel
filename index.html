@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Carrito de compras" />
+    <meta name="keyword" content="Ventas, Compras, ofertas, precios bajos" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Shop-G - Lista de Productos</title>
+  </head>
+  <body>
+    <!-- inicio Header -->
+    <header class="container__header">
+      <div class="cont_header_up">
+        <nav
+          class="navbar navbar-expand-lg d-sm-none d-md-none d-xl-none header__menu_hamburg"
+        >
+          <div class="container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="">Vender</a>
+                </li>
+                <li class="nav-item">
+                  <a href="">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">Quienes somos?</a>
+                </li>
+                <li class="nav-item mb-1" id="carrito_iconoMobile">
+                  <a href="">
+                    <img src="./medias/Icono Carrito.svg" alt="" /> Carrito
+                  </a>
+                  <span
+                    id="cart_menu_num1"
+                    data-action="cart-can"
+                    class="badge rounded-circle"
+                  ></span>
+                </li>
+                <li class="nav-item">
+                  <div class="cont_form_buscar">
+                    <a href="#"
+                      ><div class="cont_icon_buscar">
+                        <img
+                          class="icon_Buscar"
+                          src="./medias/icono-Buscar.svg"
+                          alt=""
+                        /></div
+                    ></a>
+                    <div class="cont_input_buscar">
+                      <input
+                        class="input_buscar"
+                        type="search"
+                        name="buscador"
+                        id="buscadorProd"
+                        placeholder="Buscar articulos"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- INICIO HEADER - SECCION LOGO -->
+        <a href="./index.html">
+          <div class="cont_titl_log">
+            <div class="cont_title"><h3>Shop-G</h3></div>
+            <div class="logo_cont">
+              <img
+                class="logo_img"
+                src="./medias/Logo_Nav.svg"
+                alt="logo del Nav"
+              />
+            </div>
+          </div>
+        </a>
+        <!-- FIN HEADER - SECCION LOGO -->
+
+        <!-- INICIO HEADER - SECCION BUSCADOR -->
+        <div class="cont_form_buscar d-none d-sm-flex">
+          <a href="#"
+            ><div class="cont_icon_buscar">
+              <img
+                class="icon_Buscar"
+                src="./medias/icono-Buscar.svg"
+                alt=""
+              /></div
+          ></a>
+          <div class="cont_input_buscar">
+            <input
+              class="input_buscar"
+              type="search"
+              name="buscador"
+              id="buscadorProd"
+              placeholder="Buscar articulos"
+            />
+          </div>
+        </div>
+
+        <!-- FIN HEADER - SECCION BUSCADOR -->
+
+        <!-- INICIO HEADER - SECCION REDES SOCIALES -->
+        <div class="cont_rsocial">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/Icono_Facebook.svg"
+                  alt="icono de Icono_Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/icono-twitter.svg"
+                  alt="icono de Icono_twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/icono-Instagram.svg"
+                  alt="icono de Icono_Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- FIN HEADER - SECCION REDES SOCIALES -->
+      </div>
+      <!-- INICIO HEADER - SECCION MENUS -->
+      <div class="cont_header_down">
+        <nav>
+          <!-- INICIO HEADER - SECCION MENU 1 -->
+          <div class="cont_menu1">
+            <ul>
+              <li class="menu1__Option">
+                <a href="#">Categorias</a>
+              </li>
+              <li class="menu1__Option"><a href="#">Ofertas</a></li>
+              <li><a href="">Vender</a></li>
+              <li>
+                <a href="">Quienes somos?</a>
+              </li>
+              <li><a href="">Contacto</a></li>
+              <li class="menu1__Option"><a href="#">Ayuda</a></li>
+            </ul>
+          </div>
+          <!-- FIN HEADER - SECCION MENU 1 -->
+
+          <!-- INICIO HEADER - SECCION MENU 2 -->
+          <div class="cont_menu2">
+            <div>
+              <ul>
+                <li><a href="#">Login</a></li>
+                <li>
+                  <a href="">Registrarse</a>
+                </li>
+                <li><a href="#">Compras</a></li>
+              </ul>
+            </div>
+
+            <div class="cont_IconoCarr" id="icono_Carrito">
+              <span
+                id="cart_menu_num2"
+                data-action="cart-can"
+                class="badge rounded-circle"
+              ></span>
+              <a href="./index.html">
+                <img
+                  class="img_Carr"
+                  src="./medias/Icono Carrito.svg"
+                  alt="icono Carrito"
+              /></a>
+            </div>
+          </div>
+
+          <!-- FIN HEADER - SECCION MENU 2 -->
+        </nav>
+      </div>
+
+      <!-- INICIO HEADER - SECCION MENUS -->
+    </header>
+    <!-- fin Header -->
+    <!-- Inicio Main -->
+    <main class="container">
+      <!-- INICIO SECCION CARRITO -->
+
+      <!-- INICIO - TITULO DE SECCION -->
+      <div class="d-flex flex-row-reverse container carrito__cont_title uno">
+        <div class="cont_IconoCarr_02">
+          <a href=""
+            ><img
+              class="carrito__img_02"
+              src="./medias/Icono Carrito02.svg"
+              alt="icono Carrito"
+          /></a>
+        </div>
+        <h3>Lista de Productos</h3>
+        <div class="cont_IconoCarr_02" id="icono_Carrito">
+          <a href=""
+            ><img
+              class="carrito__img_02"
+              src="./medias/Icono Carrito02.svg"
+              alt="icono Carrito"
+          /></a>
+        </div>
+      </div>
+      <!-- FIN - TITULO SECCION -->
+
+      <!-- INICIO - SECCION DONDE MOSTRAMOS LOS PRODUCTOS -->
+
+      <section
+        class="mb-12 p-1 carrito__cont_art col-12"
+        id="section_ProdCarrito"
+      >
+        <!-- Se completa con el codigo de JavaScritp -->
+      </section>
+
+      <!-- FIN - SECCION DONDE MOSTRAMOS LOS PRODUCTOS -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" id="modal_contenido">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                id="modalIconoCerrar"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">Precio</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="items"></tbody>
+                  <tfoot>
+                    <tr id="footer">
+                      <th scope="row" colspan="5">
+                        Carrito vacío - comience a comprar!
+                      </th>
+                    </tr>
+                  </tfoot>
+                </table>
+                <div class="row" id="cards"></div>
+
+                <div
+                  class="alert alert-success"
+                  role="alert"
+                  style="display: none"
+                  id="modalAlertFinCompra"
+                >
+                  La Compra fue exitosa!!
+                </div>
+
+                <div
+                  class="alert alert-danger"
+                  role="alert"
+                  id="modalAlertSinProduct"
+                  style="display: none"
+                >
+                  No tiene productos en el Carrito
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+                id="Modal_btn_Cerrar"
+              >
+                Cerrar
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                id="modalBtnComprar"
+              >
+                Terminar compra
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FIN SECCION CARRITO -->
+    </main>
+    <!-- Fin de Main -->
+    <!-- inincio Footer -->
+    <footer class="container-fluid">
+      <!-- INICIO FOOTER - SECCION LOGO -->
+      <div class="footer__cont_up container">
+        <div class="footer_ContLogo">
+          <a href="./index.html">
+            <div class="cont_titl_log">
+              <div class="cont_title"><h3>Shop-G</h3></div>
+              <div class="logo_cont">
+                <img
+                  class="logo_img"
+                  src="./medias/Logo_Nav.svg"
+                  alt="logo del Nav"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- INICIO FOOTER - SECCION LOGO -->
+
+        <!-- INICIO FOOTER - MENU / DATOS CONTACTO -->
+        <nav class="footer__ContMenu">
+          <!-- INICIO FOOTER - SECCION MENU -->
+          <div class="footer__menu">
+            <h4>Menu</h4>
+            <ul>
+              <li><a href="">Contacto</a></li>
+              <li><a href="">Vender</a></li>
+              <li><a href="">Quienes somos?</a></li>
+            </ul>
+          </div>
+          <!-- FIN FOOTER - SECCION MENU -->
+
+          <!-- INICIO FOOTER - SECCION DATOS CONTACTO -->
+          <div class="footer__DatosCantacto">
+            <h4>Datos de Contacto</h4>
+
+            <p><em>Tel: (0381) - 4333555</em></p>
+
+            <p><em>E-mail: gabrielcano.86@gmail.com </em></p>
+            <p><em>Domicilio: calle Fernando Paz 1568 - SM de Tucumán</em></p>
+          </div>
+          <!-- INICIO FOOTER - SECCION DATOS CONTACTO -->
+        </nav>
+
+        <!-- INICIO FOOTER - MENU / DATOS CONTACTO -->
+
+        <!-- INICIO FOOTER - SECCION REDES SOCIALES -->
+        <div class="footer__ContRsocial">
+          <ul class="footer__contRsocial_list">
+            <li>
+              <a href="https://www.facebook.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/Icono_Facebook.svg"
+                  alt="icono de Icono_Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/icono-twitter.svg"
+                  alt="icono de Icono_twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/icono-Instagram.svg"
+                  alt="icono de Icono_Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <!-- FIN FOOTER - SECCION REDES SOCIALES -->
+      </div>
+
+      <!-- INICIO SECCION DE DERECHOS DE AUTOR -->
+      <div class="footer__cont_down container">
+        <small>&copy Derechos reservados a Gabriel Eduardo Cano</small>
+      </div>
+      <!-- FIN SECCION DE DERECHOS DE AUTOR -->
+    </footer>
+    <!-- fin de Footer -->
+
+    <!-- INICIO DE RUTAS JAVASCRIP -->
+    <!-- Libreria de Alertas -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- RUTA JavaScript de la primera entrega del Desafio Final -->
+
+    <!-- Script bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Javascript con el codigo que estamos trabajando -->
+    <script src="./js/index.js"></script>
+
+    <!-- FIN DE RUTAS JAVASCRIP -->
+  </body>
+</html>
